@@ -1,0 +1,172 @@
+
+/* import fonts from fonts .css file */
+@import url(./fonts.css);
+/* importcss vriables */
+@import url(./partials/_variables.css);
+
+/*******************start navbar************/
+
+#navbar img{
+width: 100px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgb(87, 146, 38);
+}
+#navbarNav{
+max-width: 700px;
+}
+#navbarNav li{
+    padding-left: 10px;
+    font-family: var(--Comfortaa);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--title-color);
+ 
+}
+#navbarNav .active {
+       background: var(--gradient-color);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+}
+#navbarNav li:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*******************end navbar************/
+/*******************start banner************/
+.site-main .site-title{
+ background: url(../img/banner.png)no-repeat  ;
+} 
+.site-main .site-title h1{
+padding-top: 25%;
+margin-bottom: 10%;
+font-weight: 100;
+letter-spacing: 30px;
+font-family: var(--Comfortaa);
+}
+.site-main .site-title h4{
+    padding-top: 5%;
+    margin-bottom: 10%;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: var(--Comfortaa);
+    }
+.site-main .site-title h1::after{
+    content: " ";
+    height: 10px;
+    width: 100px;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+    border-radius: 30px;
+}
+.site-main .site-buttons .primary-button{
+    background-color:var(--green-color);
+    background-clip: padding-box;
+    color: azure;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+    font-size: 20px;
+    
+}
+.site-main .site-buttons .primary-button:hover{
+   background:azure;
+   background-clip: padding-box;
+   color: black;
+   border-color: rgb(0, 0, 0);
+}
+.site-main .banner-image>img{
+    border-radius: 150px;
+    box-shadow: 0px 0px 10px rgb(87, 146, 38);
+}
+.site-main .site-buttons .secondary-button {
+    background-clip: padding-box;
+    color: black;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+    border-color: black;
+    font-size: 20px;
+}
+.site-main .site-buttons .secondary-button:hover{
+    background:#3ae210;
+    background-clip: padding-box;
+    color: azure;
+    border-color: rgb(0, 0, 0);
+ }
+/*******************end banner************/
+/*******************start about************/
+#btn-Download{
+    background-color:var(--green-color);
+    background-clip: padding-box;
+    color: azure;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+    font-size: 20px;
+}
+#btn-Download:hover{
+    background:azure;
+   background-clip: padding-box;
+   color: black;
+   border-color: rgb(0, 0, 0);
+}
+.about-area .about-image img{
+    border-radius: 150px;
+    box-shadow: 0px 0px 10px rgb(87, 146, 38);
+    margin: 40px ;
+}
+.about-area .about-title h2>span{
+    display: block;
+    padding: 10px 15px;
+    letter-spacing: 20px;
+    font-family: var(--Comfortaa);
+    font-weight: 900; 
+}
+.about-area .about-title .paragraph .para{
+    font-family: var(--Comfortaa);
+    font-weight: 500; 
+    letter-spacing: 2px;
+
+}
+/*******************end about************/
+/*******************start brand************/
+.brand-area .first-row .col-lg-4>.single-brand{
+text-align: center;
+margin: 10px 0;
+width: 160px;
+height: 100px;
+cursor: pointer;
+transition: transform .4s ease;
+}
+.brand-area .first-row .col-lg-4>.single-brand>img{
+width: 90%;
+padding: 20px 20px;
+}
+.brand-area .first-row .col-lg-4>.single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.brand-area .experience-area .years-area{
+padding-top: 100px;
+background: url(../img/banner.png) no-repeat;
+font-family: var(--Comfortaa);
+border: #3ae210 2px dashed;
+}
+.brand-area .experience-area .years{
+font-size: 100px;
+color: #3ae210;
+}
+.brand-area .experience-area .call-area i{
+    font-size: 50px;
+    color: #3ae210;
+   margin-left: 170px;
+}
+.brand-area .experience-area .call-now{
+    font-size: 40px;
+    padding-right: 30px;
+
+}
+
+/*******************end brand************/
